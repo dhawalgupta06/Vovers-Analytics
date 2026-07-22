@@ -26,6 +26,8 @@ Each record represents one product within a purchase order. This table enables m
 - A purchase order can contain one or more products.
 - The same product may appear in multiple purchase orders.
 - Purchase order history is permanently maintained for procurement and auditing purposes.
+- Product cost prices remain fixed throughout the project timeline.
+- Product selling prices remain fixed throughout the project timeline.
 
 <br>
 

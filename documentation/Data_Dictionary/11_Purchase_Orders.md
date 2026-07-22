@@ -25,6 +25,10 @@ Each purchase order is uniquely identified by **Purchase_Order_ID** and records 
 - A purchase order must contain one or more products in the **Purchase_Order_Details** table.
 - Purchase_DateTime cannot be a future date and time.
 - Purchase order records are permanently maintained for procurement history and auditing.
+- Purchase orders are recorded only after goods have been physically received and verified at the warehouse.
+- Inventory is updated immediately after a purchase order is recorded.
+- Goods rejected during inspection are not recorded in the database.
+- Purchase returns are outside the scope of this project.
 
 <br>
 
