@@ -112,6 +112,8 @@ Departments include:
 - HR
 - Customer Service
 - Operations
+- Marketing
+- IT
 
 <br> 
 
