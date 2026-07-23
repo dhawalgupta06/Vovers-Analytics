@@ -139,14 +139,14 @@ create table orders (
 create table order_details(
     order_detail_id int auto_increment primary key,
     order_id int not null,
-    product_id int not null,
+    variant_id int not null,
     quantity int not null default 1 check (quantity >= 1),
     discount_percentage decimal(5, 2) default 0 check(
         discount_percentage >= 0
         and discount_percentage <= 50
     ),
     foreign key (order_id) references orders(order_id),
-    foreign key (product_id) references products(product_id)
+    foreign key (variant_id) references product_variants(variant_id)
 );
 
 -- Inventory Table
@@ -155,10 +155,10 @@ create table inventory(
     location_type enum("Store", "Warehouse") not null,
     store_id int,
     warehouse_id int,
-    product_id int not null,
+    variant_id int not null,
     quantity int not null default 0 check(quantity >= 0),
     foreign key (store_id) references stores(store_id),
-    foreign key (product_id) references products(product_id),
+    foreign key (variant_id) references product_variants(variant_id),
     foreign key (warehouse_id) references warehouses(warehouse_id)
 );
 
@@ -192,8 +192,8 @@ create table purchase_orders (
 create table purchase_order_details(
     purchase_order_detail_id int auto_increment primary key,
     purchase_order_id int not null,
-    product_id int not null,
+    variant_id int not null,
     quantity int not null default 1 check (quantity > 0),
     foreign key (purchase_order_id) references purchase_orders(purchase_order_id),
-    foreign key (product_id) references products(product_id)
+    foreign key (variant_id) references product_variants(variant_id)
 );

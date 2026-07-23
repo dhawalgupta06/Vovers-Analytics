@@ -163,7 +163,7 @@ The schema has been designed to support business operations, financial analysis,
 |---------|
 | Order_Detail_ID |
 | Order_ID |
-| Product_ID |
+| Variant_ID |
 | Quantity |
 
 <br>
@@ -176,7 +176,7 @@ The schema has been designed to support business operations, financial analysis,
 | Location_Type |
 | Store_ID |
 | Warehouse_ID |
-| Product_ID |
+| Variant_ID |
 | Quantity |
 
 ### Location Types
@@ -223,7 +223,7 @@ The schema has been designed to support business operations, financial analysis,
 |---------|
 | Purchase_Order_Detail_ID |
 | Purchase_Order_ID |
-| Product_ID |
+| Variant_ID |
 | Quantity |
 
 <br>
