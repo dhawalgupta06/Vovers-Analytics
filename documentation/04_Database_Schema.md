@@ -47,10 +47,22 @@ The schema has been designed to support business operations, financial analysis,
 | Supplier_ID |
 | Brand |
 | Category |
+
+<br>
+
+## Product_Variants
+
+| Column |
+|---------|
+| Variant_ID |
+| Product_ID |
+| Color |
+| Storage |
+| Size |
 | Cost_Price |
 | Selling_Price |
 
-<br>
+<br/>
 
 ## Stores
 

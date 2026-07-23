@@ -49,9 +49,20 @@ create table products (
         'Gaming',
         'Accessories'
     ) not null,
-    cost_price decimal(10, 2) check(cost_price > 0) not null,
-    selling_price decimal(10, 2) not null check(selling_price>0),
     foreign key (supplier_id) references suppliers(supplier_id)
+);
+
+-- Product Variants Table
+create table product_variants (
+    variant_id int auto_increment primary key,
+    product_id int not null,
+    color varchar(30),
+    storage varchar(20),
+    size varchar(20),
+    cost_price decimal(10, 2) not null check(cost_price > 0),
+    selling_price decimal(10, 2) not null check(selling_price > 0),
+    foreign key (product_id) references products(product_id),
+    constraint chk_variant_price check(selling_price > cost_price)
 );
 
 --Stores Table
