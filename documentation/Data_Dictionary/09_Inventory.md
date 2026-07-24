@@ -8,26 +8,26 @@ Each record represents the available quantity of a specific product variant at a
 
 <br>
 
-| Column Name   | Data Type |  PK |  FK | Nullable | Default Value  | Constraints / Allowed Values         | Description                                                                                  |
+| Column Name   | Data Type | PK  | FK  | Nullable | Default Value  | Constraints / Allowed Values         | Description                                                                                  |
 | ------------- | --------- | :-: | :-: | :------: | -------------- | ------------------------------------ | -------------------------------------------------------------------------------------------- |
-| Inventory_ID  | INT       |  Y  |  N  |     N    | AUTO_INCREMENT | Positive Integer                     | Unique identifier assigned to each inventory record.                                         |
-| Location_Type | ENUM      |  N  |  N  |     N    | None           | Store, Warehouse                     | Type of inventory location.                                                                  |
-| Store_ID      | INT       |  N  |  Y  |     Y    | None           | Must exist in Stores table           | Store where inventory is maintained (if applicable).                                         |
-| Warehouse_ID  | INT       |  N  |  Y  |     Y    | None           | Must exist in Warehouses table       | Warehouse where inventory is maintained (if applicable).                                     |
-| Variant_ID    | INT       |  N  |  Y  |     N    | None           | Must exist in Product_Variants table | Product variant whose inventory is being tracked.                                            |
-| Quantity      | INT       |  N  |  N  |     N    | 0              | Quantity ≥ 0                         | Current available stock quantity of the specified product variant at the inventory location. |
+| Inventory_ID  | INT       |  Y  |  N  |    N     | AUTO_INCREMENT | Positive Integer                     | Unique identifier assigned to each inventory record.                                         |
+| Location_Type | ENUM      |  N  |  N  |    N     | None           | Store, Warehouse                     | Type of inventory location.                                                                  |
+| Store_ID      | INT       |  N  |  Y  |    Y     | None           | Must exist in Stores table           | Store where inventory is maintained (if applicable).                                         |
+| Warehouse_ID  | INT       |  N  |  Y  |    Y     | None           | Must exist in Warehouses table       | Warehouse where inventory is maintained (if applicable).                                     |
+| Variant_ID    | INT       |  N  |  Y  |    N     | None           | Must exist in Product_Variants table | Product variant whose inventory is being tracked.                                            |
+| Quantity      | INT       |  N  |  N  |    N     | 0              | Quantity ≥ 0                         | Current available stock quantity of the specified product variant at the inventory location. |
 
 <br>
 
 ## Business Rules
 
-* Every inventory record must have a unique **Inventory_ID**.
-* Every inventory record must reference one product variant.
-* Inventory can exist at either a **Store** or a **Warehouse**.
-* At least one of **Store_ID** or **Warehouse_ID** must contain a valid value.
-* Quantity cannot be negative.
-* Inventory is updated whenever product variants are purchased, sold, returned, or transferred.
-* A product variant may exist at multiple inventory locations.
+- Every inventory record must have a unique **Inventory_ID**.
+- Every inventory record must reference one product variant.
+- Inventory can exist at either a **Store** or a **Warehouse**.
+- At least one of **Store_ID** or **Warehouse_ID** must contain a valid value.
+- Quantity cannot be negative.
+- Inventory is updated whenever product variants are purchased, sold, returned, or transferred.
+- A product variant may exist at multiple inventory locations.
 
 <br>
 
@@ -45,14 +45,14 @@ Each record represents the available quantity of a specific product variant at a
 
 The Inventory table is used for:
 
-* Current Stock Analysis
-* Inventory Distribution
-* Store-wise Inventory
-* Warehouse-wise Inventory
-* Low Stock Identification
-* Stock Availability
-* Inventory Turnover
-* Days Inventory Outstanding (DIO)
-* Inventory Valuation
-* Stock Replenishment Planning
-* Category-wise Inventory Analysis
+- Current Stock Analysis
+- Inventory Distribution
+- Store-wise Inventory
+- Warehouse-wise Inventory
+- Low Stock Identification
+- Stock Availability
+- Inventory Turnover
+- Days Inventory Outstanding (DIO)
+- Inventory Valuation
+- Stock Replenishment Planning
+- Category-wise Inventory Analysis

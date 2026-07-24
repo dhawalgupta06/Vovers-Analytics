@@ -231,20 +231,40 @@ The schema has been designed to support business operations, financial analysis,
 # Initial Dataset Size
 
 | Table | Records |
-|--------|---------:|
-| Customers | 10,000 |
+|--------|--------:|
+| Customers | 100,000 |
 | Products | 250 |
+| Product Variants | Dynamic |
 | Stores | 120 |
 | Warehouses | 12 |
-| Employees | 5,000 |
+| Employees | 2,652 |
 | Suppliers | 40 |
-| Orders | 50,000 |
-| Order Details | 120,000 |
+| Orders | 125,000 |
+| Order Details | 2,00,000 |
 | Inventory | Dynamic |
-| Returns | 3,500 |
+| Returns | 3,600 |
 | Purchase Orders | 2,500 |
-| Purchase Order Details | Dynamic |
-<br>
+| Purchase Order Details | 20,000 |
+
+<br/>
+
+## Dataset Assumptions
+
+- The dataset represents a **realistic analytical sample** of Vovers ERP operations.
+- Product Variants are generated dynamically based on category-specific variation requirements.
+- Inventory is a dynamic snapshot table representing current stock availability across warehouses.
+- Every Order contains **at least one** Order Detail.
+- Average products per Order is approximately **1.6**, resulting in around **192,000 Order Details**.
+- Approximately **3% of Orders** result in Returns.
+- Purchase Orders are generated based on warehouse replenishment requirements.
+- Each Purchase Order contains an average of **8 products**, resulting in approximately **20,000 Purchase Order Details**.
+- Customer Join Date, Employee Join Date, Orders, Returns, and Purchase Orders remain logically consistent during data generation.
+- Orders are generated only **after** a customer's Join Date.
+- Employees' Age, Join Date, Designation, and Salary remain logically consistent during data generation.
+
+<br/>
+
+---
 
 # Design Principles
 

@@ -15,8 +15,7 @@ Each product is uniquely identified by **Product_ID** and is linked to a supplie
 | Supplier_ID | INT | N | Y | N | None | Must exist in Suppliers table | Supplier responsible for providing the product. |
 | Brand | VARCHAR(50) | N | N | N | None | Valid brand name | Brand under which the product is marketed. |
 | Category | ENUM | N | N | N | None | Smartphones, Laptops, Tablets, Televisions, Audio Devices, Smart Watches, Home Appliances, Kitchen Appliances, Gaming, Accessories | Product category used for reporting and inventory classification. |
-| Cost_Price | DECIMAL(10,2) | N | N | N | None | > 0 | Purchase price paid by Vovers to the supplier. |
-| Selling_Price | DECIMAL(10,2) | N | N | N | None | > Cost_Price | Selling price offered to customers. |
+
 
 <br>
 

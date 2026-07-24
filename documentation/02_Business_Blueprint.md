@@ -26,7 +26,7 @@
 
 - Warehouses: 12
 
-- Employees: ~5,000
+- Employees: ~2,652
 
 <br>
 
@@ -246,16 +246,13 @@ Executives
 <br>
 
 # Business Departments
-
 - Sales
+- Warehouse
 - Finance
-- Marketing
+- HR
+- IT
 - Operations
-- Supply Chain
-- Customer Support
-- Human Resources
-- Information Technology
-- Business Intelligence & Analytics
+- Marketing
 
 <br>
 
