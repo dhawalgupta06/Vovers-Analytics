@@ -1,0 +1,41 @@
+﻿supplier_id,supplier_name,contact_person,phone_number,email,city,state
+1,Redington Limited,Amit Sharma,9894839201,info@redington.com,New Delhi,Delhi
+2,Ingram Micro India,Rahul Verma,9975128436,contact@ingrammicro.com,New Delhi,Delhi
+3,Savex Technologies,Neha Gupta,9764289150,info@savex.in,New Delhi,Delhi
+4,Rashi Peripherals,Vikas Singh,9657038419,support@rashiperipherals.com,New Delhi,Delhi
+5,RP Tech India,Priya Mehta,9581947305,contact@rptechindia.com,New Delhi,Delhi
+6,Supertron Electronics,Sandeep Kumar,9348572019,info@supertronindia.com,New Delhi,Delhi
+7,Compuage Infocom,Anjali Jain,9184327596,info@compuageindia.com,New Delhi,Delhi
+8,Iris Global Services,Rohit Agarwal,9892754318,support@irisglobal.in,New Delhi,Delhi
+9,Tech Data India,Manish Bansal,9918572346,enquiry@techdata.com,Gurugram,Haryana
+10,Beetel Teletech,Pooja Kapoor,9738462518,enquiry@beetelteletech.com,Gurugram,Haryana
+11,Creative Peripherals,Nitin Arora,9639148752,contact@creativeperipherals.com,Gurugram,Haryana
+12,Arrow PC Network,Kunal Malhotra,9516382745,contact@arrowpcnetwork.com,Gurugram,Haryana
+13,Neoteric Informatique,Sneha Sinha,9394571826,info@neotericinformatique.com,Gurugram,Haryana
+14,Fortune Marketing Pvt. Ltd.,Deepak Yadav,9172638459,sales@fortunemarketing.com,Gurugram,Haryana
+15,Dixon Technologies,Abhishek Mishra,9891562374,sales@dixon.com,Mumbai,Maharashtra
+16,Optiemus Electronics,Ritika Goyal,9994851627,contact@optiemuselectronics.com,Mumbai,Maharashtra
+17,Avnet India,Vivek Gupta,9775126843,enquiry@avnet.com,Mumbai,Maharashtra
+18,Esys Information Technologies,Aman Khanna,9663814752,contact@esysinformation.com,Mumbai,Maharashtra
+19,Rabyte Electronics,Shreya Nair,9548261739,business@rabyteelectronics.com,Mumbai,Maharashtra
+20,Synnex India,Harsh Vohra,9384716250,sales@synnex.com,Mumbai,Maharashtra
+21,Smartlink Distribution,Akash Jain,9185623749,sales@smartlinkdistribution.com,Pune,Maharashtra
+22,Inspan Infotech,Nidhi Saxena,9874632518,info@inspaninfotech.com,Pune,Maharashtra
+23,LG Electronics India,Karthik Rao,9951627384,support@lgelectronics.com,Bengaluru,Karnataka
+24,Samsung India Electronics,Ananya Iyer,9784316259,info@samsungelectronics.com,Bengaluru,Karnataka
+25,Sony India,Ramesh Bhat,9645728139,enquiry@sony.com,Bengaluru,Karnataka
+26,Lenovo India,Sakshi Arora,9526813745,support@lenovo.com,Bengaluru,Karnataka
+27,ASUS India,Mohit Chawla,9398145726,info@asus.com,Bengaluru,Karnataka
+28,HP India,Pallavi Joshi,9194726385,info@hp.com,Chennai,Tamil Nadu
+29,Dell Technologies India,Tarun Sehgal,9863517429,contact@dell.com,Chennai,Tamil Nadu
+30,Acer India,Rohan Sethi,9974182635,business@acer.com,Chennai,Tamil Nadu
+31,Panasonic India,Suresh Pillai,9752618437,support@panasonic.com,Chennai,Tamil Nadu
+32,Xiaomi Technology India,Megha Reddy,9657482319,info@xiaomitechnology.com,Hyderabad,Telangana
+33,OnePlus India,Varun Goel,9536827415,info@oneplus.com,Hyderabad,Telangana
+34,realme India,Simran Kaur,9374518263,info@realme.com,Hyderabad,Telangana
+35,Nothing India,Arjun Kapoor,9186437529,business@nothing.com,Hyderabad,Telangana
+36,Haier Appliances India,Bhavesh Patel,9892613745,sales@haierappliances.com,Ahmedabad,Gujarat
+37,Voltas Limited,Krunal Shah,9973528416,sales@voltas.com,Ahmedabad,Gujarat
+38,Blue Star Limited,Ayush Srivastava,9761548237,info@bluestar.com,Ahmedabad,Gujarat
+39,Microsoft India,Naveen Tyagi,9648732519,contact@microsoft.com,Noida,Uttar Pradesh
+40,Apple India,Ishita Arora,9527481635,support@apple.com,Noida,Uttar Pradesh
