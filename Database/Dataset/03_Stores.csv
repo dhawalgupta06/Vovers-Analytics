@@ -1,0 +1,121 @@
+﻿store_id,city,state,region,warehouse_id,store_type,opening_date
+1,New Delhi,Delhi,North,2,Airport,2023-10-10
+2,New Delhi,Delhi,North,2,Mall,2023-03-07
+3,New Delhi,Delhi,North,2,Mall,2022-07-21
+4,New Delhi,Delhi,North,2,Mall,2024-08-27
+5,New Delhi,Delhi,North,2,Standalone,2018-12-09
+6,New Delhi,Delhi,North,2,Standalone,2025-07-13
+7,Gurugram,Haryana,North,1,Mall,2023-08-25
+8,Gurugram,Haryana,North,1,Mall,2022-09-13
+9,Gurugram,Haryana,North,1,Mall,2021-02-22
+10,Gurugram,Haryana,North,1,Mall,2020-01-04
+11,Gurugram,Haryana,North,1,Standalone,2025-10-18
+12,Faridabad,Haryana,North,1,Standalone,2023-04-08
+13,Faridabad,Haryana,North,1,Standalone,2020-07-21
+14,Faridabad,Haryana,North,1,Standalone,2025-08-16
+15,Chandigarh,Punjab,North,1,Mall,2024-09-30
+16,Chandigarh,Punjab,North,1,Standalone,2025-07-11
+17,Ludhiana,Punjab,North,1,Standalone,2016-06-24
+18,Ludhiana,Punjab,North,1,Standalone,2025-10-16
+19,Ludhiana,Punjab,North,1,Standalone,2025-07-20
+20,Noida,Uttar Pradesh,North,2,Mall,2020-03-30
+21,Noida,Uttar Pradesh,North,2,Mall,2022-05-06
+22,Noida,Uttar Pradesh,North,2,Standalone,2016-05-24
+23,Noida,Uttar Pradesh,North,2,Standalone,2024-07-07
+24,Noida,Uttar Pradesh,North,2,Standalone,2019-01-07
+25,Ghaziabad,Uttar Pradesh,North,2,Standalone,2018-06-17
+26,Ghaziabad,Uttar Pradesh,North,2,Standalone,2023-09-24
+27,Ghaziabad,Uttar Pradesh,North,2,Standalone,2022-04-29
+28,Lucknow,Uttar Pradesh,North,4,Mall,2017-01-03
+29,Lucknow,Uttar Pradesh,North,4,Standalone,2018-09-23
+30,Lucknow,Uttar Pradesh,North,4,Standalone,2018-12-12
+31,Lucknow,Uttar Pradesh,North,4,Standalone,2025-06-23
+32,Jaipur,Rajasthan,North,3,Mall,2023-01-19
+33,Jaipur,Rajasthan,North,3,Standalone,2019-04-07
+34,Jaipur,Rajasthan,North,3,Standalone,2021-07-04
+35,Jodhpur,Rajasthan,North,3,Standalone,2020-07-30
+36,Bengaluru,Karnataka,South,8,Airport,2023-06-25
+37,Bengaluru,Karnataka,South,8,Mall,2020-06-06
+38,Bengaluru,Karnataka,South,8,Mall,2022-11-01
+39,Bengaluru,Karnataka,South,8,Mall,2024-10-27
+40,Bengaluru,Karnataka,South,8,Standalone,2021-12-07
+41,Bengaluru,Karnataka,South,8,Standalone,2024-03-09
+42,Bengaluru,Karnataka,South,8,Standalone,2018-01-15
+43,Mysuru,Karnataka,South,8,Standalone,2020-07-20
+44,Chennai,Tamil Nadu,South,9,Mall,2021-07-27
+45,Chennai,Tamil Nadu,South,9,Mall,2022-08-23
+46,Chennai,Tamil Nadu,South,9,Mall,2021-12-14
+47,Chennai,Tamil Nadu,South,9,Standalone,2018-01-27
+48,Chennai,Tamil Nadu,South,9,Standalone,2024-08-15
+49,Coimbatore,Tamil Nadu,South,9,Standalone,2020-07-03
+50,Coimbatore,Tamil Nadu,South,9,Standalone,2021-09-05
+51,Hyderabad,Telangana,South,10,Mall,2019-06-29
+52,Hyderabad,Telangana,South,10,Mall,2023-01-14
+53,Hyderabad,Telangana,South,10,Mall,2024-01-15
+54,Hyderabad,Telangana,South,10,Mall,2017-11-07
+55,Hyderabad,Telangana,South,10,Standalone,2021-07-07
+56,Hyderabad,Telangana,South,10,Standalone,2023-09-03
+57,Kochi,Kerala,South,9,Mall,2025-08-03
+58,Kochi,Kerala,South,9,Mall,2025-04-24
+59,Kochi,Kerala,South,9,Standalone,2019-02-11
+60,Kochi,Kerala,South,9,Standalone,2021-12-14
+61,Thiruvananthapuram,Kerala,South,9,Standalone,2025-12-18
+62,Visakhapatnam,Andhra Pradesh,South,10,Standalone,2020-09-19
+63,Visakhapatnam,Andhra Pradesh,South,10,Standalone,2024-07-13
+64,Mumbai,Maharashtra,West,5,Airport,2022-06-02
+65,Mumbai,Maharashtra,West,5,Mall,2019-08-29
+66,Mumbai,Maharashtra,West,5,Mall,2022-07-24
+67,Mumbai,Maharashtra,West,5,Mall,2025-10-14
+68,Mumbai,Maharashtra,West,5,Mall,2024-06-26
+69,Mumbai,Maharashtra,West,5,Standalone,2024-03-20
+70,Mumbai,Maharashtra,West,5,Standalone,2022-11-29
+71,Mumbai,Maharashtra,West,5,Standalone,2023-01-15
+72,Pune,Maharashtra,West,6,Mall,2017-04-20
+73,Pune,Maharashtra,West,6,Mall,2024-06-10
+74,Pune,Maharashtra,West,6,Mall,2025-03-04
+75,Pune,Maharashtra,West,6,Standalone,2023-09-07
+76,Pune,Maharashtra,West,6,Standalone,2018-09-27
+77,Pune,Maharashtra,West,6,Standalone,2021-05-31
+78,Nagpur,Maharashtra,West,5,Standalone,2024-12-30
+79,Nagpur,Maharashtra,West,5,Standalone,2025-12-30
+80,Nagpur,Maharashtra,West,5,Standalone,2020-10-14
+81,Ahmedabad,Gujarat,West,7,Mall,2019-11-20
+82,Ahmedabad,Gujarat,West,7,Mall,2025-10-02
+83,Ahmedabad,Gujarat,West,7,Mall,2023-05-19
+84,Ahmedabad,Gujarat,West,7,Standalone,2024-05-16
+85,Ahmedabad,Gujarat,West,7,Standalone,2025-03-11
+86,Ahmedabad,Gujarat,West,7,Standalone,2019-01-22
+87,Surat,Gujarat,West,7,Mall,2024-06-13
+88,Surat,Gujarat,West,7,Standalone,2025-03-31
+89,Surat,Gujarat,West,7,Standalone,2022-08-06
+90,Surat,Gujarat,West,7,Standalone,2024-11-16
+91,Surat,Gujarat,West,7,Standalone,2024-10-07
+92,Vadodara,Gujarat,West,7,Standalone,2020-11-13
+93,Vadodara,Gujarat,West,7,Standalone,2018-12-17
+94,Panaji,Goa,West,6,Standalone,2025-09-15
+95,Panaji,Goa,West,6,Standalone,2024-06-08
+96,Kolkata,West Bengal,East,11,Mall,2021-07-27
+97,Kolkata,West Bengal,East,11,Mall,2022-11-01
+98,Kolkata,West Bengal,East,11,Mall,2025-08-31
+99,Kolkata,West Bengal,East,11,Standalone,2025-10-20
+100,Kolkata,West Bengal,East,11,Standalone,2022-03-16
+101,Kolkata,West Bengal,East,11,Standalone,2023-11-06
+102,Bhubaneswar,Odisha,East,11,Standalone,2024-03-24
+103,Bhubaneswar,Odisha,East,11,Standalone,2018-01-18
+104,Bhubaneswar,Odisha,East,11,Standalone,2021-12-16
+105,Patna,Bihar,East,11,Standalone,2025-09-25
+106,Patna,Bihar,East,11,Standalone,2021-02-27
+107,Patna,Bihar,East,11,Standalone,2025-07-19
+108,Guwahati,Assam,East,11,Standalone,2021-04-26
+109,Guwahati,Assam,East,11,Standalone,2019-10-26
+110,Guwahati,Assam,East,11,Standalone,2022-02-08
+111,Indore,Madhya Pradesh,Central,12,Mall,2019-08-03
+112,Indore,Madhya Pradesh,Central,12,Standalone,2019-11-30
+113,Indore,Madhya Pradesh,Central,12,Standalone,2024-03-26
+114,Indore,Madhya Pradesh,Central,12,Standalone,2019-06-12
+115,Bhopal,Madhya Pradesh,Central,12,Standalone,2024-06-26
+116,Bhopal,Madhya Pradesh,Central,12,Standalone,2022-08-01
+117,Bhopal,Madhya Pradesh,Central,12,Standalone,2023-12-29
+118,Raipur,Chhattisgarh,Central,12,Standalone,2022-08-18
+119,Raipur,Chhattisgarh,Central,12,Standalone,2018-07-17
+120,Raipur,Chhattisgarh,Central,12,Standalone,2020-12-03
