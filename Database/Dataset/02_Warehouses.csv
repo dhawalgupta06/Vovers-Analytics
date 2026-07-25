@@ -1,0 +1,13 @@
+﻿warehouse_id,city,state,region,storage_capacity
+1,Gurugram,Haryana,North,25000
+2,New Delhi,Delhi,North,15000
+3,Jaipur,Rajasthan,North,8000
+4,Lucknow,Uttar Pradesh,North,8000
+5,Mumbai,Maharashtra,West,25000
+6,Pune,Maharashtra,West,8000
+7,Ahmedabad,Gujarat,West,15000
+8,Bengaluru,Karnataka,South,25000
+9,Chennai,Tamil Nadu,South,15000
+10,Hyderabad,Telangana,South,15000
+11,Kolkata,West Bengal,East,8000
+12,Indore,Madhya Pradesh,Central,8000
