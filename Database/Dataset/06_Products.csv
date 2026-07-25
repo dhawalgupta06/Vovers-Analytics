@@ -1,0 +1,251 @@
+﻿product_id,product_name,supplier_id,brand,category
+1,iPhone 17 Pro Max,40,Apple,Smartphones
+2,iPhone 17 Pro,40,Apple,Smartphones
+3,iPhone 17,40,Apple,Smartphones
+4,iPhone 16 Pro,40,Apple,Smartphones
+5,iPhone 16,40,Apple,Smartphones
+6,Galaxy S25 Ultra,24,Samsung,Smartphones
+7,Galaxy S25+,24,Samsung,Smartphones
+8,Galaxy S25,24,Samsung,Smartphones
+9,Galaxy Z Fold 7,24,Samsung,Smartphones
+10,Galaxy Z Flip 7,24,Samsung,Smartphones
+11,Galaxy A56,24,Samsung,Smartphones
+12,Galaxy A36,24,Samsung,Smartphones
+13,Galaxy M36,24,Samsung,Smartphones
+14,Pixel 10 Pro XL,1,Google,Smartphones
+15,Pixel 10 Pro,1,Google,Smartphones
+16,Pixel 10,1,Google,Smartphones
+17,Pixel 9a,1,Google,Smartphones
+18,Xiaomi 15 Ultra,32,Xiaomi,Smartphones
+19,Xiaomi 15 Pro,32,Xiaomi,Smartphones
+20,Xiaomi 15,32,Xiaomi,Smartphones
+21,Redmi Note 14 Pro+,32,Xiaomi,Smartphones
+22,Redmi Note 14 Pro,32,Xiaomi,Smartphones
+23,Redmi Note 14,32,Xiaomi,Smartphones
+24,Redmi 14C,32,Xiaomi,Smartphones
+25,OnePlus 13,33,OnePlus,Smartphones
+26,OnePlus 13R,33,OnePlus,Smartphones
+27,Nord 5,33,OnePlus,Smartphones
+28,Nord CE5,33,OnePlus,Smartphones
+29,Nord CE4 Lite,33,OnePlus,Smartphones
+30,X200 Ultra,2,Vivo,Smartphones
+31,X200 Pro,2,Vivo,Smartphones
+32,X200,2,Vivo,Smartphones
+33,V50 Pro,2,Vivo,Smartphones
+34,V50,2,Vivo,Smartphones
+35,Find X8 Ultra,3,Oppo,Smartphones
+36,Find X8 Pro,3,Oppo,Smartphones
+37,Reno 14 Pro,3,Oppo,Smartphones
+38,Reno 14,3,Oppo,Smartphones
+39,A5 Pro,3,Oppo,Smartphones
+40,GT 7 Pro,34,Realme,Smartphones
+41,GT 7,34,Realme,Smartphones
+42,Realme 15 Pro+,34,Realme,Smartphones
+43,Realme 15 Pro,34,Realme,Smartphones
+44,Narzo 80 Pro,34,Realme,Smartphones
+45,Edge 60 Pro,4,Motorola,Smartphones
+46,Edge 60,4,Motorola,Smartphones
+47,Moto G96,4,Motorola,Smartphones
+48,Phone (3),35,Nothing,Smartphones
+49,Phone (3a) Pro,35,Nothing,Smartphones
+50,CMF Phone 2 Pro,35,Nothing,Smartphones
+51,MacBook Air (M4),40,Apple,Laptops
+52,MacBook Pro (M4 Pro),40,Apple,Laptops
+53,ThinkPad X1 Carbon,26,Lenovo,Laptops
+54,ThinkPad E16,26,Lenovo,Laptops
+55,Yoga Slim 7i,26,Lenovo,Laptops
+56,Yoga Pro 9i,26,Lenovo,Laptops
+57,IdeaPad Slim 5,26,Lenovo,Laptops
+58,LOQ 15,26,Lenovo,Laptops
+59,OmniBook X,28,HP,Laptops
+60,Spectre x360,28,HP,Laptops
+61,Envy x360,28,HP,Laptops
+62,Pavilion Plus,28,HP,Laptops
+63,Victus 15,28,HP,Laptops
+64,XPS 13,29,Dell,Laptops
+65,Inspiron 14,29,Dell,Laptops
+66,Inspiron 16,29,Dell,Laptops
+67,Latitude 5450,29,Dell,Laptops
+68,Alienware m16,29,Dell,Laptops
+69,Zenbook S16,27,ASUS,Laptops
+70,Vivobook S15,27,ASUS,Laptops
+71,Vivobook 15,27,ASUS,Laptops
+72,ROG Zephyrus G16,27,ASUS,Laptops
+73,TUF Gaming A15,27,ASUS,Laptops
+74,Swift Go 14,30,Acer,Laptops
+75,Swift X 14,30,Acer,Laptops
+76,Aspire 5,30,Acer,Laptops
+77,Nitro V 15,30,Acer,Laptops
+78,Prestige 16 AI,5,MSI,Laptops
+79,Katana 15,5,MSI,Laptops
+80,Cyborg 15,5,MSI,Laptops
+81,Galaxy Book5 Pro,24,Samsung,Laptops
+82,Galaxy Book5 360,24,Samsung,Laptops
+83,Surface Laptop 7,39,Microsoft,Laptops
+84,Gram 16,23,LG,Laptops
+85,Gram Pro,23,LG,Laptops
+86,iPad,40,Apple,Tablets
+87,iPad Air,40,Apple,Tablets
+88,iPad mini,40,Apple,Tablets
+89,iPad Pro,40,Apple,Tablets
+90,iPad Pro Nano-texture,40,Apple,Tablets
+91,Galaxy Tab S10 Ultra,24,Samsung,Tablets
+92,Galaxy Tab S10+,24,Samsung,Tablets
+93,Galaxy Tab S10,24,Samsung,Tablets
+94,Galaxy Tab S10 FE,24,Samsung,Tablets
+95,Galaxy Tab A9+,24,Samsung,Tablets
+96,Xiaomi Pad 7 Ultra,32,Xiaomi,Tablets
+97,Xiaomi Pad 7 Pro,32,Xiaomi,Tablets
+98,Redmi Pad 2,32,Xiaomi,Tablets
+99,Tab Plus,26,Lenovo,Tablets
+100,Yoga Tab Plus,26,Lenovo,Tablets
+101,Legion Tab,26,Lenovo,Tablets
+102,OnePlus Pad 3,33,OnePlus,Tablets
+103,OnePlus Pad Lite,33,OnePlus,Tablets
+104,Pixel Tablet,1,Google,Tablets
+105,MatePad Pro,6,Huawei,Tablets
+106,Neo QLED QN90F,24,Samsung,Televisions
+107,OLED S95F,24,Samsung,Televisions
+108,QLED Q8F,24,Samsung,Televisions
+109,Crystal UHD DU8000,24,Samsung,Televisions
+110,The Frame,24,Samsung,Televisions
+111,OLED evo C5,23,LG,Televisions
+112,OLED evo G5,23,LG,Televisions
+113,QNED86,23,LG,Televisions
+114,UHD UT80,23,LG,Televisions
+115,BRAVIA 9,25,Sony,Televisions
+116,BRAVIA 8 II,25,Sony,Televisions
+117,BRAVIA 7,25,Sony,Televisions
+118,X82L,25,Sony,Televisions
+119,X Pro QLED,32,Xiaomi,Televisions
+120,A Pro 4K,32,Xiaomi,Televisions
+121,C8K Mini LED,7,TCL,Televisions
+122,P8K QLED,7,TCL,Televisions
+123,U7 Series,8,Hisense,Televisions
+124,C350 Series,9,Toshiba,Televisions
+125,I Pro Series,30,Acer,Televisions
+126,AirPods 4,40,Apple,Audio Devices
+127,AirPods Pro 3,40,Apple,Audio Devices
+128,HomePod mini,40,Apple,Audio Devices
+129,Galaxy Buds3,24,Samsung,Audio Devices
+130,Galaxy Buds3 Pro,24,Samsung,Audio Devices
+131,HW-Q800F Soundbar,24,Samsung,Audio Devices
+132,WF-1000XM6,25,Sony,Audio Devices
+133,WH-1000XM6,25,Sony,Audio Devices
+134,ULT Wear,25,Sony,Audio Devices
+135,SRS-XB100,25,Sony,Audio Devices
+136,HT-S40R Soundbar,25,Sony,Audio Devices
+137,Tune Beam 2,10,JBL,Audio Devices
+138,Live 770NC,10,JBL,Audio Devices
+139,Flip 7,10,JBL,Audio Devices
+140,Charge 6,10,JBL,Audio Devices
+141,Bar 500 Soundbar,10,JBL,Audio Devices
+142,QuietComfort Ultra Earbuds,11,Bose,Audio Devices
+143,QuietComfort Ultra Headphones,11,Bose,Audio Devices
+144,Smart Soundbar,11,Bose,Audio Devices
+145,Momentum True Wireless 4,12,Sennheiser,Audio Devices
+146,Accentum Wireless,12,Sennheiser,Audio Devices
+147,Airdopes 311 Pro,13,Boat,Audio Devices
+148,Airdopes Alpha,13,Boat,Audio Devices
+149,Rockerz 551 ANC,13,Boat,Audio Devices
+150,Stone 358 Pro,13,Boat,Audio Devices
+151,Nirvana Ion,13,Boat,Audio Devices
+152,Buds Air 7 Pro,34,Realme,Audio Devices
+153,Buds Wireless 5 ANC,34,Realme,Audio Devices
+154,Ear,35,Nothing,Audio Devices
+155,CMF Buds Pro 2,35,Nothing,Audio Devices
+156,Redmi Buds 6 Pro,32,Xiaomi,Audio Devices
+157,Sound Outdoor Speaker,32,Xiaomi,Audio Devices
+158,Emberton III,14,Marshall,Audio Devices
+159,Major V,14,Marshall,Audio Devices
+160,Beoplay HX,17,Bang & Olufsen,Audio Devices
+161,Apple Watch Series 11,40,Apple,Smart Watches
+162,Apple Watch Ultra 3,40,Apple,Smart Watches
+163,Apple Watch SE,40,Apple,Smart Watches
+164,Apple Watch Hermès,40,Apple,Smart Watches
+165,Galaxy Watch8,24,Samsung,Smart Watches
+166,Galaxy Watch8 Classic,24,Samsung,Smart Watches
+167,Galaxy Watch Ultra,24,Samsung,Smart Watches
+168,Galaxy Fit4 Pro,24,Samsung,Smart Watches
+169,Fenix 8,18,Garmin,Smart Watches
+170,Forerunner 970,18,Garmin,Smart Watches
+171,Venu 3,18,Garmin,Smart Watches
+172,Balance 2,19,Amazfit,Smart Watches
+173,Active 2,19,Amazfit,Smart Watches
+174,T-Rex 3,19,Amazfit,Smart Watches
+175,Watch 3,33,OnePlus,Smart Watches
+176,Watch 3R,33,OnePlus,Smart Watches
+177,Watch S4,32,Xiaomi,Smart Watches
+178,Redmi Watch 5,32,Xiaomi,Smart Watches
+179,ColorFit Pro 6,20,Noise,Smart Watches
+180,Luna Ring,20,Noise,Smart Watches
+181,Ultima Prime,13,Boat,Smart Watches
+182,Storm Infinity,13,Boat,Smart Watches
+183,Watch GT 6,6,Huawei,Smart Watches
+184,Watch Fit 4 Pro,6,Huawei,Smart Watches
+185,Pixel Watch 4,1,Google,Smart Watches
+186,Dual Inverter Split AC,23,LG,Home Appliances
+187,Frost Free Refrigerator,23,LG,Home Appliances
+188,Front Load Washing Machine,23,LG,Home Appliances
+189,Top Load Washing Machine,23,LG,Home Appliances
+190,CordZero Vacuum Cleaner,23,LG,Home Appliances
+191,WindFree Split AC,24,Samsung,Home Appliances
+192,Bespoke Refrigerator,24,Samsung,Home Appliances
+193,Front Load Washing Machine,24,Samsung,Home Appliances
+194,Top Load Washing Machine,24,Samsung,Home Appliances
+195,Frost Free Refrigerator,21,Whirlpool,Home Appliances
+196,Top Load Washing Machine,21,Whirlpool,Home Appliances
+197,Double Door Refrigerator,21,Whirlpool,Home Appliances
+198,Inverter Split AC,36,Haier,Home Appliances
+199,Frost Free Refrigerator,36,Haier,Home Appliances
+200,Front Load Washing Machine,36,Haier,Home Appliances
+201,Double Door Refrigerator,22,Godrej,Home Appliances
+202,Top Load Washing Machine,22,Godrej,Home Appliances
+203,Inverter Split AC,37,Voltas,Home Appliances
+204,Window AC,37,Voltas,Home Appliances
+205,Inverter Split AC,15,Daikin,Home Appliances
+206,Premium Split AC,15,Daikin,Home Appliances
+207,Inverter Split AC,38,Blue Star,Home Appliances
+208,Window AC,38,Blue Star,Home Appliances
+209,V15 Detect Vacuum Cleaner,16,Dyson,Home Appliances
+210,Air Purifier 3000 Series,6,Philips,Home Appliances
+211,Airfryer 5000 Series,6,Philips,Kitchen Appliances
+212,Mixer Grinder 750W,6,Philips,Kitchen Appliances
+213,Juicer,6,Philips,Kitchen Appliances
+214,Induction Cooktop,1,Prestige,Kitchen Appliances
+215,Electric Kettle,1,Prestige,Kitchen Appliances
+216,Rice Cooker,1,Prestige,Kitchen Appliances
+217,Convection Microwave Oven,2,IFB,Kitchen Appliances
+218,Solo Microwave Oven,2,IFB,Kitchen Appliances
+219,Built-in Oven,2,IFB,Kitchen Appliances
+220,Mixer Grinder,3,Bajaj,Kitchen Appliances
+221,Pop-up Toaster,3,Bajaj,Kitchen Appliances
+222,Air Fryer Prolife,4,Havells,Kitchen Appliances
+223,Electric Kettle,4,Havells,Kitchen Appliances
+224,OTG Oven,5,Morphy Richards,Kitchen Appliances
+225,Hand Blender,5,Morphy Richards,Kitchen Appliances
+226,Microwave Oven,31,Panasonic,Kitchen Appliances
+227,Automatic Bread Maker,31,Panasonic,Kitchen Appliances
+228,Built-in Chimney,7,Bosch,Kitchen Appliances
+229,Built-in Dishwasher,7,Bosch,Kitchen Appliances
+230,Nutri Blend,8,Wonderchef,Kitchen Appliances
+231,PlayStation 5 Slim,25,Sony,Gaming
+232,PlayStation Portal,25,Sony,Gaming
+233,Xbox Series X,39,Microsoft,Gaming
+234,Xbox Series S,39,Microsoft,Gaming
+235,Nintendo Switch 2,9,Nintendo,Gaming
+236,ROG Ally X,27,ASUS,Gaming
+237,Legion Go,26,Lenovo,Gaming
+238,G Pro X Superlight 2,10,Logitech G,Gaming
+239,BlackWidow V4 Pro,11,Razer,Gaming
+240,Arctis Nova 7,12,SteelSeries,Gaming
+241,MagSafe Charger,40,Apple,Accessories
+242,USB-C Power Adapter,40,Apple,Accessories
+243,45W Fast Charger,24,Samsung,Accessories
+244,SmartTag2,24,Samsung,Accessories
+245,MX Master 3S,13,Logitech,Accessories
+246,MX Keys S,13,Logitech,Accessories
+247,PowerCore 20000 Power Bank,14,Anker,Accessories
+248,USB-C Hub,14,Anker,Accessories
+249,Extreme Portable SSD,17,SanDisk,Accessories
+250,Ultra microSDXC Card,17,SanDisk,Accessories
