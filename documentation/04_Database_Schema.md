@@ -242,7 +242,7 @@ The schema has been designed to support business operations, financial analysis,
 | Orders | 125,000 |
 | Order Details | 2,00,000 |
 | Inventory | Dynamic |
-| Returns | 3,600 |
+| Returns | 3,750 |
 | Purchase Orders | 2,500 |
 | Purchase Order Details | 20,000 |
 
