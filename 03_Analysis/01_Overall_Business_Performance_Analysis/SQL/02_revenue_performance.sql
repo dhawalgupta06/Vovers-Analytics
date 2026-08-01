@@ -93,7 +93,7 @@ order by
     quarter(o.order_datetime) asc;
 
 -- Metric : Revenue Growth %
--- Period : Last 3 year (2023-2025)
+-- Period : Last 3 years (2023-2025)
 -- Description : Calculates revenue growth rate in comparison of last year revenue.
 with revenue_table as (
     select
