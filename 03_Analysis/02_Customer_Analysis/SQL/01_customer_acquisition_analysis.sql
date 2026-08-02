@@ -142,3 +142,19 @@ group by
     state
 order by
     customers_acquired desc;
+
+-- Metric : Customer Acquisition by Region
+-- Period : Past 3 Completed Years (2023-2025)
+-- Description : Calculates the number of customers acquired from each region during the past 3 completed years.
+select
+    region,
+    count(customer_id) as customers_acquired
+from
+    customers
+where
+    join_date >= '2023-01-01'
+    and join_date < '2026-01-01'
+group by
+    region
+order by
+    customers_acquired desc;
