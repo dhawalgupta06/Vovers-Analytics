@@ -72,7 +72,7 @@ order by
     year(o.order_datetime) asc,
     month(o.order_datetime);
 
--- Metric : Gross profit by Quarter
+-- Metric : Gross Profit by Quarter
 -- Period : Past 3 years (2023-2025)
 -- Description : Calculates gross profit of past 3 years.
 select
@@ -148,9 +148,31 @@ from
 order by
     year;
 
--- Metric : Gross Profit Margin
+-- Metric: Gross Profit Margin
+-- Period: Last 3 Completed Years (2023–2025)
+-- Description: Calculates gross profit as a percentage of revenue for the last three completed years.
+select
+    round(
+        (
+            sum(
+                pv.selling_price * od.quantity * (1 - coalesce(od.discount_percentage, 0) / 100) - pv.cost_price * od.quantity
+            ) / sum(
+                pv.selling_price * od.quantity * (1 - coalesce(od.discount_percentage, 0) / 100)
+            )
+        ) * 100,
+        2
+    ) as gross_profit_margin_percentage
+from
+    product_variants as pv
+    inner join order_details as od on pv.variant_id = od.variant_id
+    inner join orders as o on o.order_id = od.order_id
+where
+    o.order_datetime >= '2023-01-01'
+    and o.order_datetime < '2026-01-01';
+
+-- Metric : Gross Profit Margin (Year wise)
 -- Period : Last 3 years (2023-2025)
--- Description : Calculates gross profit margin of last 3 years.
+-- Description : Calculates year-wise gross profit margin of last 3 years.
 select
     year(o.order_datetime) as year,
     round(
@@ -171,11 +193,13 @@ where
     o.order_datetime >= '2023-01-01'
     and o.order_datetime < '2026-01-01'
 group by
-    year(o.order_datetime);
+    year(o.order_datetime)
+order by
+    year asc;
 
 -- Metric : Gross Profit Margin (Month wise)
 -- Period : Last 3 years (2023-2025)
--- Description : Calculates month wise gross profit margin of last 3 years.
+-- Description : Calculates month-wise gross profit margin of last 3 years.
 select
     monthname(o.order_datetime) as month,
     year(o.order_datetime) as year,
@@ -206,7 +230,7 @@ order by
 
 -- Metric : Gross Profit Margin (Quarter wise)
 -- Period : Last 3 years (2023-2025)
--- Description : Calculates quarter wise gross profit margin of last 3 years.
+-- Description : Calculates quarter-wise gross profit margin of last 3 years.
 select
     quarter(o.order_datetime) as quarter,
     year(o.order_datetime) as year,

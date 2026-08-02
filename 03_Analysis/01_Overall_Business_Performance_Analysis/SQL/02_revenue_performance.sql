@@ -18,7 +18,7 @@ where
 
 -- Metric : Revenue by Year
 -- Period : Past 3 years (2023-2025)
--- Description : Calculates revenue of past 3 years.
+-- Description : Calculates year-wise revenue of past 3 years.
 select
     year(o.order_datetime) as year,
     round(
@@ -41,7 +41,7 @@ order by
 
 -- Metric : Revenue by Month
 -- Period : Past 3 years (2023-2025)
--- Description : Calculates revenue of past 3 years.
+-- Description : Calculates month-wise revenue of past 3 years.
 select
     monthname(o.order_datetime) as month,
     year(o.order_datetime) as year,
@@ -68,7 +68,7 @@ order by
 
 -- Metric : Revenue by Quarter
 -- Period : Past 3 years (2023-2025)
--- Description : Calculates revenue of past 3 years.
+-- Description : Calculates quarter-wise revenue of past 3 years.
 select
     quarter(o.order_datetime) as quarter,
     year(o.order_datetime) as year,
@@ -93,8 +93,8 @@ order by
     quarter(o.order_datetime) asc;
 
 -- Metric : Revenue Growth %
--- Period : Last 3 years (2023-2025)
--- Description : Calculates revenue growth rate in comparison of last year revenue.
+-- Period : Past 3 years (2023-2025)
+-- Description : Calculates revenue growth rate in comparison of Past year revenue.
 with revenue_table as (
     select
         year(o.order_datetime) as year,

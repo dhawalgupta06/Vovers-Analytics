@@ -72,16 +72,6 @@ from
     orders;
 
 
--- Metric: Units Sold
--- Period: All Available Data
--- Description: Calculates the total number of units sold.
-
-select
-    sum(quantity) as units_sold
-from
-    order_details;
-
-
 -- Metric: Average Order Value
 -- Period: All Available Data
 -- Description: Calculates the average revenue generated per order.
