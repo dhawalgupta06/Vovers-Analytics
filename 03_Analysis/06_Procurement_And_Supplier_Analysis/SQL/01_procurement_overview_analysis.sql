@@ -56,32 +56,31 @@ from
     purchase_order_details pod
     inner join product_variants pv on pod.variant_id = pv.variant_id;
 
-    -- Metric : Units Purchased by Year
+-- Metric : Units Purchased by Year
 -- Period : All-Time
 -- Description : Calculates the total quantity of product variants purchased in each year to show the annual procurement volume trend.
-
 select
-year(po.purchase_datetime) as year,
-sum(pod.quantity) as total_units_purchased
+    year(po.purchase_datetime) as year,
+    sum(pod.quantity) as total_units_purchased
 from
-purchase_order_details pod
-inner join purchase_orders po
-    on pod.purchase_order_id = po.purchase_order_id
-group by year(po.purchase_datetime)
-order by year;
+    purchase_order_details pod
+    inner join purchase_orders po on pod.purchase_order_id = po.purchase_order_id
+group by
+    year(po.purchase_datetime)
+order by
+    year;
 
 -- Metric : Estimated Procurement Value by Year
 -- Period : All-Time
 -- Description : Calculates the estimated annual procurement value using purchased quantity multiplied by the current cost price of each Product Variant.
-
 select
-year(po.purchase_datetime) as year,
-round(sum(pod.quantity*pv.cost_price),2) as estimated_procurement_value
+    year(po.purchase_datetime) as year,
+    round(sum(pod.quantity * pv.cost_price), 2) as estimated_procurement_value
 from
-purchase_order_details pod
-inner join purchase_orders po
-    on pod.purchase_order_id = po.purchase_order_id
-inner join product_variants pv
-    on pv.variant_id = pod.variant_id
-group by year(po.purchase_datetime)
-order by year;
+    purchase_order_details pod
+    inner join purchase_orders po on pod.purchase_order_id = po.purchase_order_id
+    inner join product_variants pv on pv.variant_id = pod.variant_id
+group by
+    year(po.purchase_datetime)
+order by
+    year;
