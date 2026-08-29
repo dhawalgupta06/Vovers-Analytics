@@ -188,63 +188,6 @@ Executives
 
 <br>
 
-# Key Performance Indicators (KPIs)
-
-## Sales
-
-- Revenue
-- Orders
-- Units Sold
-- Average Order Value (AOV)
-
-## Finance
-
-- Gross Profit
-- Gross Margin %
-- Net Profit
-- Operating Margin
-- Revenue Growth %
-
-## Customer
-
-- Customer Retention
-- Repeat Purchase Rate
-- Customer Lifetime Value (CLV)
-- New Customers
-- Customer Satisfaction Score (CSAT)
-
-## Inventory
-
-- Inventory Turnover
-- Days Inventory Outstanding
-- Stockout Rate
-- Inventory Accuracy %
-
-## Operations
-
-- Order Fulfilment Time
-- On-Time Delivery %
-- Return Rate
-- Warranty Claim Rate
-
-## Marketing
-
-- Campaign ROI
-- Customer Acquisition Cost (CAC)
-- Conversion Rate
-
-<br>
-
-# Market Positioning
-
-- Value-driven premium consumer electronics retailer.
-- Competitive pricing with premium customer experience.
-- Strong after-sales support and warranty services.
-- Technology-driven omnichannel shopping experience.
-- Wide assortment of trusted national and international brands.
-
-<br>
-
 # Business Departments
 - Sales
 - Warehouse
@@ -255,7 +198,3 @@ Executives
 - Marketing
 
 <br>
-
-# Business Objective
-
-To become India's most trusted omnichannel consumer electronics retailer by delivering premium customer experience, competitive pricing, and seamless technology-driven shopping.

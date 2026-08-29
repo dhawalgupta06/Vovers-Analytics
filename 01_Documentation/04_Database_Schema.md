@@ -110,6 +110,7 @@ The schema has been designed to support business operations, financial analysis,
 | Warehouse_ID |
 | Join_Date |
 | Salary |
+| Work_location |
 
 <br>
 
@@ -254,7 +255,6 @@ The schema has been designed to support business operations, financial analysis,
 - Product Variants are generated dynamically based on category-specific variation requirements.
 - Inventory is a dynamic snapshot table representing current stock availability across warehouses.
 - Every Order contains **at least one** Order Detail.
-- Average products per Order is approximately **1.6**, resulting in around **192,000 Order Details**.
 - Approximately **3% of Orders** result in Returns.
 - Purchase Orders are generated based on warehouse replenishment requirements.
 - Each Purchase Order contains an average of **8 products**, resulting in approximately **20,000 Purchase Order Details**.

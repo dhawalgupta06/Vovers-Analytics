@@ -16,8 +16,9 @@ Each employee is uniquely identified by **Employee_ID** and is assigned to eithe
 | Age | TINYINT | N | N | N | None | Age ≥ 18 | Age of the employee in completed years. |
 | Department | ENUM | N | N | N | None | Sales, Warehouse, Finance, HR, IT, Operations, Marketing | Department in which the employee works. |
 | Designation | ENUM | N | N | N | None | Store Manager, Sales Executive, Cashier, Warehouse Manager, Warehouse Executive, Finance Manager, Finance Executive, HR Manager, HR Executive, IT Manager, IT Executive, Operations Manager, Operations Executive, Marketing Manager, Marketing Executive | Job role of the employee. |
-| Store_ID | INT | N | Y | Y | None | Must exist in Stores table | Store where the employee is assigned (if applicable). |
-| Warehouse_ID | INT | N | Y | Y | None | Must exist in Warehouses table | Warehouse where the employee is assigned (if applicable). |
+| Work_Location | ENUM | N | N | N | None | Store, Warehouse, Office | Type of work location to which the employee is assigned. |
+| Store_ID | INT | N | Y | Y | None | Must exist in Stores table | Store where the employee is assigned when Work_Location is Store. |
+| Warehouse_ID | INT | N | Y | Y | None | Must exist in Warehouses table | Warehouse where the employee is assigned when Work_Location is Warehouse. |
 | Join_Date | DATE | N | N | N | None | Current date or earlier | Date on which the employee joined Vovers. |
 | Salary | DECIMAL(10,2) | N | N | N | None | Greater than 0 | Monthly salary of the employee. |
 
